@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .font-manrope> {
+            font-family: "Manrope", sans-serif;
+
+        }
+    </style>
+</head>
+
+<body class="md:bg-white bg-gray-100">
+    <header>
+        <!-- this is navbar section  -->
+        <section class="p-5 md:mr-0 md:items-center md:justify-around bg-gradient-to-t from-white to-gray-100">
+            <nav>
+                <div class="md:flex flex md:items-center justify-between md:pl-32 md:pr-32 pt-5">
+
+                    <div class="items-center gap-2 flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6 rounded-full bg-[#ABEF5F] p-2 w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                        <h1 class="text-4xl font-bold">Rinterio</h1>
+                    </div>
+
+                    <ul class="md:flex gap-9 hidden">
+                        <li class="mx-3 text-[#494949]"><a href="">Home</a></li>
+                        <li class="mx-3 text-[#494949]"><a href="">Services</a></li>
+                        <li class="mx-3 text-[#494949]"><a href="">Portfolio</a></li>
+                        <li class="mx-3 text-[#494949]"><a href="">Blogs</a></li>
+                        <li class="mx-3 text-[#494949]"><a href="">Contact Us</a></li>
+                    </ul>
+                    <div class="md:flex gap-5 items-center hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6 bg-white rounded-full p-3 h-12 w-12">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6 bg-white rounded-full p-3 h-12 w-12">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                        <button class="flex bg-[#ABEF5F] gap-2 px-6 w-51 rounded-3xl p-2">
+                            <h2 class="text-lg font-bold">Book Consult</h2>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor"
+                                class="size-6 bg-black text-white rounded-full p-2 font-bold w-8 h-8">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
+
+                        </button>
+
+                    </div>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6 bg-white md:hidden w-12 h-12 rounded-3xl object-right-top p-2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+
+
+
+
+                </div>
+            </nav>
+
+            <!-- this is banner section  -->
+
+            <div class="md:text-center text-center md:justify-around">
+                <img class="md:ml-[450px]" src="images/banner.png" alt="">
+                <h1 class="text-[#212121] my-5 text-5xl font-extrabold">A barn house of this design has a <br> striking
+                    appearance</h1>
+
+                <p class="text-[#494949] my-6">The barn house captivates with its blend of rustic charm and modern
+                    sophistication, featuring
+                    weathered wood, sleek metal <br> accents, and large windows that flood the space with natural
+                    light.
+                </p>
+
+                <button
+                    class="flex md:ml-[650px] my-6 bg-[#d7f8a3] gap-3 px-6 md:w-45 rounded-3xl  pl-36 pr-36 p-2 md:p-2 md:px-6">
+                    <h2 class="text-lg font-bold">View Details</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6 bg-[#ABEF5F] text-[#212121] rounded-full p-2 font-bold w-8 h-8">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>
+
+                </button>
+
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- this is vector arrow section  -->
+        <section class="bg-gray-100 p-5  md:py-20 mt-10">
+            <img class="md:w-[200px] md:h-[50px] w-0 h-0 pl-16" src="images/Vector.png" alt="">
+            <div class="md:flex justify-between md:pl-32 md:pr-32">
+                <div>
+
+                    <button
+                        class="lg:flex flex my-3 bg-white md:ml-0 ml-36 gap-2 px-3 w-[127px] h-[38px] rounded-3xl p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        </svg>
+                        <h2 class="font-bold">About Us</h2>
+                    </button>
+                    <h1 class="my-5 text-4xl font-extrabold md:text-left text-center">We design thoughtful, <br>
+                        liveable spaces</h1>
+                    <p class="my-5 text-[#494949] md:text-left text-center">The barn house captivates with its blend of
+                        rustic charm and <br>
+                        modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <div class="flex rounded-2xl bg-white p-5 gap-5 my-5">
+                        <img src="images/commercial.png" alt="">
+                        <div>
+                            <h3 class="text-2xl font-bold">Commercial</h3>
+                            <p class="text-[#494949]">The barn house captivates with its blend <br> of rustic charm and
+                                modern.</p>
+                        </div>
+                    </div>
+                    <div class="flex rounded-2xl bg-white p-5 gap-5 my-5">
+                        <img src="images/residential.png" alt="">
+                        <div>
+                            <h3 class="text-2xl font-bold">Residential</h3>
+                            <p class="text-[#494949]">The barn house captivates with its blend <br> of rustic charm and
+                                modern.</p>
+                        </div>
+                    </div>
+                </div>
+                <img class="md:w-[573px] md:h-[500px] w-[450px] h-[300px]" src="images/Rectangle.png" alt="">
+            </div>
+            <div class="grid md:grid-cols-4 rounded-2xl bg-white p-10 md:mt-20 md:ml-32 md:mr-32 my-5">
+                <div class="text-center my-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 h-10 w-10 text-[#494949] mx-36 md:mx-28">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                    </svg>
+                    <h2 class="text-4xl text-gray-800 font-semibold my-3">235+</h2>
+                    <p class="text-[#494949] my-3">Happy Clint Review</p>
+                </div>
+                <div class="text-center my-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 h-10 w-10 text-[#494949] md:mx-28 mx-36">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
+                    </svg>
+                    <h2 class="text-4xl text-gray-800 font-semibold my-3">50+</h2>
+                    <p class="text-[#494949] my-3">Work Departments</p>
+
+                </div>
+                <div class="text-center my-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="text-[#494949] size-6 h-10 w-10 md:mx-28 mx-36">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+                    </svg>
+                    <h2 class="text-4xl text-gray-800 font-semibold my-3">30K+</h2>
+                    <p class="text-[#494949] my-3">Our Happy Clint</p>
+
+                </div>
+                <div class="text-center my-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 h-10 w-10 text-[#494949] md:mx-28 mx-36">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+                    </svg>
+                    <h2 class="text-4xl text-gray-800 font-semibold my-3">307+</h2>
+                    <p class="text-[#494949] my-3">Staff Members</p>
+                </div>
+            </div>
+
+            <!-- this is our process section  -->
+
+            <div class="md:ml-32 md:mr-32 pt-8">
+                <button
+                    class="lg:flex flex my-3 bg-white gap-2 ml-[150px] md:ml-[550px] px-2 w-[166px] h-[38px] rounded-3xl p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                    <h2 class="font-bold">How we works</h2>
+                </button>
+                <h1 class="text-4xl font-extrabold text-center py-3">Our Works Process</h1>
+                <p class="text-[#494949] text-center py-5">The barn house captivates with its blend of rustic charm and
+                    modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+                <div class="grid md:grid-cols-4 gap-5 md:gap-9">
+                    <div class="bg-[#E7C1D3] md:w-[275px] md:h-[220px]  w-[445px] h-[220px] rounded-2xl p-5 md:p-5">
+                        <img class="pt-3" src="images/concept.png" alt="">
+                        <h3 class=" pt-2 text-2xl font-semibold">Concept</h3>
+                        <p class="text-[#494949] pt-2">The barn house captivates with its blend of rustic charm and
+                            modern.</p>
+                    </div>
+                    <div class="bg-[#EFDA6E] md:w-[275px] md:h-[220px] w-[445px] h-[220px] rounded-2xl p-5">
+                        <img class="pt-3" src="images/flow-chart.png" alt="">
+                        <h3 class=" pt-2 text-2xl font-semibold">Deign Process</h3>
+                        <p class="text-[#494949] pt-2">The barn house captivates with its blend of rustic charm and
+                            modern.</p>
+                    </div>
+                    <div class="bg-[#A4DAC3] md:w-[275px] md:h-[220px] w-[445px] h-[220px] rounded-2xl p-5">
+                        <img class="pt-3" src="images/vision.png" alt="">
+                        <h3 class=" pt-2 text-2xl font-semibold">Supervision</h3>
+                        <p class="text-[#494949] pt-2">The barn house captivates with its blend of rustic charm and
+                            modern.</p>
+                    </div>
+                    <div class="bg-[#77AAEA] md:w-[275px] md:h-[220px] w-[445px] h-[220px] rounded-2xl p-5">
+                        <img class="pt-3" src="images/budget-planning.png" alt="">
+                        <h3 class=" pt-2 text-2xl font-semibold">Concept</h3>
+                        <p class="text-[#494949] pt-2">The barn house captivates with its blend of rustic charm and
+                            modern.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- this is portfolio section  -->
+
+        <section class="mt-10">
+            <div class="md:ml-32 md:mr-32 p-5">
+                <button
+                    class="lg:flex flex my-3 bg-[#e7fccb] ml-[105px] md:ml-[500px] gap-2 px-3 w-[250px] h-[38px] rounded-3xl p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                    <h2 class="font-bold">Explore Our Latest Works</h2>
+                </button>
+
+                <h1 class="text-4xl font-extrabold text-center py-4">Our Latest Portfolio</h1>
+                <p class="text-center text-[#494949] py-4 mb-5">The barn house captivates with its blend of rustic charm and
+                    modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+
+                <div class="md:flex md:gap-5">
+                    <div class="md:flex border-2 rounded-2xl p-5 md:w-[850px] md:h-[227px] bg-white">
+                        <div>
+                            <img class="md:w-auto md:h-auto w-[400px] h-[270px]" src="images/img1.png" alt="">
+                        </div>
+                        <div class="md:pl-5">
+                            <h2 class="text-2xl font-semibold md:mb-3 mt-4 md:mt-0">Commercial</h2>
+                            <p class="mt-5">The barn house captivates with its blend of rustic<br> charm and modern. The
+                                barn house
+                                captivates with <br> its blend of rustic charm and modern .</p>
+                            <button class="flex gap-3 rounded-3xl mt-7">
+                                <h2 class="text-lg font-bold">View Details</h2>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor"
+                                    class="size-6 bg-[#ABEF5F] text-[#212121] rounded-full p-2 font-bold w-8 h-8">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
+
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mt-5 md:mt-0 ">
+                        <img class="border-2 bg-white rounded-2xl p-5 md:w-auto md:h-[226px] w-[450px] h-[300px]"
+                            src="images/img2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="md:flex gap-5 mt-1">
+                    <div class="mt-4">
+                        <img class="border-2 bg-white rounded-2xl p-5 md:w-[343px] md:h-auto w-[450px] h-[300px]" src="images/img3.png" alt="">
+                    </div>
+                    <div class="md:flex border-2 rounded-2xl bg-white p-5 md:w-[850px] md:h-[216px] mt-4">
+                        <div>
+                            <img class="md:w-[250px] md:h-auto w-[400px] h-[270px]" src="images/img4.png" alt="">
+                        </div>
+                        <div class="md:pl-5">
+                            <h2 class="text-2xl font-semibold md:mb-3 mt-2 md:mt-0">Commercial</h2>
+                            <p class="mt-5">The barn house captivates with its blend of<br> rustic charm and modern. The
+                                barn house<br>
+                                captivates  with its blend</p>
+                            <button class="flex gap-3 rounded-3xl mt-5">
+                                <h2 class="text-lg font-bold">View Details</h2>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor"
+                                    class="size-6 bg-[#ABEF5F] text-[#212121] rounded-full p-2 font-bold w-8 h-8">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
+
+                            </button>
+                        </div>
+                        
+                    </div>
+                    <div class="mt-4">
+                        <img class="border-2 bg-white rounded-2xl p-5 md:w-[343px] md:h-auto w-[450px] h-[300px]" src="images/img5.png" alt="">
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
